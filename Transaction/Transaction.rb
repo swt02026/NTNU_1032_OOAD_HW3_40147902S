@@ -17,6 +17,7 @@ class Transaction
 		@videos.map{|e|
 			e.rented = false
 		}
+		@customer.reset
 	end
 
 	def isValid?

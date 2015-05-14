@@ -41,7 +41,7 @@ class World
 end
 world = World.new()
 
-1.times {  
+35.times {  
 	world.forwardADay
 }
 

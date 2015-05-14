@@ -24,7 +24,6 @@ module Customer
 		#return video
 		@store.returnVideo(self)
 		@renting = false
-		reset
 	end
 
 	def to_s

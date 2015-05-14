@@ -16,7 +16,7 @@ class Transactions
 
 	def setTransactionInvalid customer
 		
-		a=@transactions.select(&:isValid?)
+		@transactions.select(&:isValid?)
 		.select { |e|
 
 			e.customer.name == customer.name
